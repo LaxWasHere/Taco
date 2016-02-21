@@ -17,7 +17,7 @@ public class Taco extends JavaPlugin {
     String[] type = {"hard-shell", "soft-shell", "crispy", "puffy", "indian"};
     String[] quality = {"spicy", "mild", "delicous", "perfect"};
     String[] meat = {"minced beef", "shredded beef", "steak", "pork", "various meats", "chicken", "refried beans"};
-    String[] topping = {"guacamole", "salsa", "sour cream", "cheese", "lettuce", "tomatoes", "avocado", "onion", "scallions", "jalapeños", "capsicum", "ghost chili"};
+    String[] topping = {"guacamole", "salsa", "sour cream", "cheese", "lettuce", "tomatoes", "avocado", "onion", "scallions", "jalapeños", "capsicum", "ghost chili", "minced-bacon"};
 
     public void onEnable() {
 
