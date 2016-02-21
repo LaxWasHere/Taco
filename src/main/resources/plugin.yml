@@ -1,0 +1,6 @@
+name: Taco
+version: 0.1
+author: LaxWasHere
+main: net.poweredbyscience.taco.Taco
+commands:
+  taco:
