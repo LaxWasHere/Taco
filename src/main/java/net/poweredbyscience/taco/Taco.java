@@ -1,6 +1,6 @@
 package net.poweredbyscience.taco;
 
-import net.md_5.bungee.api.ChatColor;
+import org.bukkit.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -18,10 +18,6 @@ public class Taco extends JavaPlugin {
     String[] quality = {"spicy", "mild", "delicous", "perfect"};
     String[] meat = {"minced beef", "shredded beef", "steak", "pork", "various meats", "chicken", "refried beans"};
     String[] topping = {"guacamole", "salsa", "sour cream", "cheese", "lettuce", "tomatoes", "avocado", "onion", "scallions", "jalapeños", "capsicum", "ghost chili", "minced-bacon"};
-
-    public void onEnable() {
-
-    }
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
