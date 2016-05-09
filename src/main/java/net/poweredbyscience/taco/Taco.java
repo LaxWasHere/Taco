@@ -16,7 +16,7 @@ public class Taco extends JavaPlugin {
     String template = "hands {user} a {quality} {type} taco filled with {meat} and topped with {topping1}, {topping2} and {topping3}!"; //am too lazy don't judge
     String[] type = {"hard-shell", "soft-shell", "crispy", "puffy", "indian"};
     String[] quality = {"spicy", "mild", "delicious", "perfect", "fresh"};
-    String[] meat = {"minced beef", "shredded beef", "steak", "pork", "pulled pork", "ragu", "pulled chicken", "various meats", "chicken", "refried beans"};
+    String[] meat = {"minced beef", "shredded beef", "steak", "pork", "bacon", "pulled pork", "ragu", "pulled chicken", "various meats", "chicken", "refried beans"};
     String[] topping = {"guacamole", "salsa", "sour cream", "cheese", "lettuce", "tomatoes", "avocado", "onion", "scallions", "jalapeños", "capsicum", "pancetta", "aioli", "ghost chili", "minced-bacon"};
 
     @Override
